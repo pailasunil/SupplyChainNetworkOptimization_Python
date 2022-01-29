@@ -13,3 +13,7 @@ from PIL import Image
 image = Image.open('IMT.jpg')
 
 st.image(image, caption='My Alma Matter')
+
+image = Image.open('pic.jpg')
+
+st.image(image, caption='Sunil@IMT')
